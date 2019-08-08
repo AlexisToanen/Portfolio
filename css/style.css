@@ -1,0 +1,198 @@
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+.link
+{
+  color:#fff!important;
+}
+strong
+{
+  font-weight: normal !important;
+}
+/*h1, h2 {font-family: 'Raleway', sans-serif;}*/
+p {font-family: 'Lato', sans-serif;}
+/*header*/
+.header
+{
+  width: 100%;
+	height: 100%;
+	background-image: url("../img/header.jpg");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.centre
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.centre h1
+{
+  font-size: 4.5em;
+  letter-spacing: 8px;
+  color: #f4efe9;
+  line-height: 40px;
+}
+.centre h2
+{
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #bec2a7;
+}
+/*button*/
+.mybutton
+{
+  background-color: #253740;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  cursor: pointer;
+}
+.mybutton:hover
+{
+  transition: 0.4s;
+  background-color: #0e1924;
+  color: white;
+  text-decoration: none;
+}
+/*button end*/
+/*header end*/
+.marge {margin: 30px 0 30px 0;}
+.top-marge {padding-top: 80px;}
+.barre
+{
+  width: 40px;
+  height: 2px;
+  background-color: #253740;
+  display: flex;
+}
+/*title*/
+.title
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title h1
+{
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+/*title end*/
+/*contenu-01*/
+.contents-01
+{
+  margin-bottom: 30px;
+}
+.contents-01 p
+{
+  font-size: 1.3em;
+  color: #090B0C;
+  line-height: 1.8;
+}
+.contents-color
+{
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0;
+  background-color: #F4EFEF;
+}
+/*contenu-01 end*/
+/*Project 01*/
+.portfolio-img{
+  position: relative;
+  margin-top: 15px !important;
+}
+.image {
+  display: block;
+  width: 100%;
+}
+.overlay
+{
+	position: absolute;
+  top: 0;
+  bottom: 0;
+	left: 0;
+ 	right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.portfolio-img:hover .overlay {
+  	opacity: 0.9;
+}
+.overlay-text
+{
+		color: white;
+  	font-size: 25px;
+ 		position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	text-align: center;
+}
+.overlay-text p
+{
+	font-size: 15px
+}
+
+/*Project 02*/
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f4efe9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7e8f7d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #253740;
+}
+::scrollbar {
+    width: 10px;
+}
+/* Track */
+/*scrollbar end*/
+
+@media (max-width:768px)
+{
+  .centre h1
+  {
+    font-size: 2em;
+  }
+  .centre h2
+  {
+    font-size: 1em;
+  }
+
+}
