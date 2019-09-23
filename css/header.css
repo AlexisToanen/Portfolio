@@ -1,0 +1,24 @@
+.header_project01
+{
+    width: 100%;
+    height: 400px;
+    background-color: #0e1924;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header_project01-back a
+{
+    color: #ffffff;
+    text-decoration: none !important;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 2em;
+}
+.header_project01-back a::hover
+{
+    color: #fff !important;
+}
