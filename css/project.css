@@ -1,0 +1,46 @@
+/*Project all*/
+
+.content_project
+{
+    width: 100%;
+    height: auto;
+    padding: 150px 0;
+    background-color: #F4EFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_project-title
+{
+    font-size: 1.8em;
+}
+.content_project-title--center
+{
+    font-size: 1.8em;
+    text-align: center;
+}
+.content_project-text
+{
+    font-size: 1.3em;
+}
+.content_project-img
+{
+    width: 40%;
+    margin-top: 40px;
+}
+.content_project-imgcard
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_project-technology
+{
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+}
+.bold
+{
+    font-weight: bold;
+}

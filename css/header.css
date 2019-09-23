@@ -18,7 +18,14 @@
     padding: 10px 25px;
     border-radius: 2em;
 }
-.header_project01-back a::hover
+.header_project01-back a:hover
 {
-    color: #fff !important;
+    transition: 0.4s;
+    background-color: #253740;
+    color: white;
+    text-decoration: none;
+}
+.header_project01-title
+{
+    line-height: 50px;
 }
